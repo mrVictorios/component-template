@@ -1,0 +1,37 @@
+{
+  "name"              : "manrog/component",
+  "license"           : "BSD-3-Clause",
+  "description"       : "Template ",
+  "type"              : "library",
+  "keywords"          : [],
+  "version"           : "1.0",
+  "homepage"          : "https://www.manrog.de",
+  "minimum-stability" : "dev",
+  "require"           : {
+    "php"             : "^7.0",
+  },
+  "require-dev"       : {
+    "phpunit/phpunit"       : "^5.5 || ^7.0",
+    "sebastian/phpcpd"      : "2.0.*",
+    "phpmd/phpmd"           : "2.3.*",
+    "pdepend/pdepend"       : "2.2.*",
+    "phpmetrics/phpmetrics" : "v1.*",
+    "phploc/phploc"         : "3.0.*",
+    "theseer/phpdox"        : "0.8.1.*"
+  },
+  "config"            : {
+    "bin-dir" : "./bin"
+  },
+  "autoload"          : {
+    "psr-4" : {
+      "manrog\\" : "./src/lib/manrog"
+    }
+  },
+  "authors"           : [
+    {
+      "name"  : "Manuel Rogoll",
+      "email" : "rogoll89@gmail.com",
+      "role"  : "lead"
+    }
+  ]
+}
