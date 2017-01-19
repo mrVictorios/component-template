@@ -10,7 +10,7 @@ Pre Configured Tools:
 
 ## Usage
 ```bash
-$ composer create-project manrog/component-tempalte %PROJECT_NAME%
+$ composer create-project manrog/component-template %PROJECT_NAME%
 ```
 
 ## FAQ
