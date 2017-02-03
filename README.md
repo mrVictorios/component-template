@@ -7,6 +7,7 @@ Pre Configured Tools:
 * PHPUnit - Unit testing Framework
 * PHPDox - Documentation
 * PHPMetrics - Project Metrics
+* Docker Environment
 
 ## Usage
 ```bash
@@ -14,5 +15,5 @@ $ composer create-project manrog/component-template %PROJECT_NAME%
 ```
 
 ## FAQ
-1. PHPMetrics not Generate images
-Get save you have "graphviz" installed.
+1. PHPMetrics not Generate images, get save you have "graphviz" installed.
+do
