@@ -14,6 +14,16 @@ Pre Configured Tools:
 $ composer create-project manrog/php-template %PROJECT_NAME%
 ```
 
+### Create Docker Container
+```bash
+$ docker-compose up
+```
+
+### Connect to Docker bash
+```bash
+$ docker exec -ti %CONTAINER_NAME% /bin/bash
+```
+
 ## FAQ
 1. PHPMetrics not Generate images, get save you have "graphviz" installed.
 do
