@@ -11,7 +11,7 @@
          convertWarningsToExceptions="true"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="crawler">
+        <testsuite name="project">
             <directory>tests/src/lib</directory>
         </testsuite>
     </testsuites>
