@@ -11,7 +11,7 @@ Pre Configured Tools:
 
 ## Usage
 ```bash
-$ composer create-project manrog/component-template %PROJECT_NAME%
+$ composer create-project manrog/php-template %PROJECT_NAME%
 ```
 
 ## FAQ
