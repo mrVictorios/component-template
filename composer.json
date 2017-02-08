@@ -1,10 +1,10 @@
 {
-  "name": "manrog/component-template",
+  "name": "manrog/php-template",
   "license": "BSD-3-Clause",
   "description": "Template ",
   "type": "library",
   "keywords": [],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "homepage": "https://www.manrog.de",
   "minimum-stability": "dev",
   "require": {
