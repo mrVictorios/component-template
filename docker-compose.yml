@@ -11,13 +11,14 @@ services:
           - "9000:9000"
         volumes:
           - .:/var/www
+        environment:
+            APP_NAME:            component_template
 
     db:
         image: mysql
         ports:
             - "3306:3306"
         environment:
-              APP_NAME:            component_template
               MYSQL_ROOT_PASSWORD: mysecret
               MYSQL_DATABASE:      component_db
               MYSQL_USER:          user
