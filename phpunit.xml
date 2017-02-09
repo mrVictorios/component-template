@@ -12,7 +12,7 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="project">
-            <directory>tests/src/lib</directory>
+            <directory>tests/lib</directory>
         </testsuite>
     </testsuites>
     <logging>
